@@ -64,12 +64,12 @@ document.addEventListener("DOMContentLoaded", () => {
 //   });
 // };
 
-function save() {
-  localStorage.setItem("todo", toDoBtn.checked);
+//function save() {
+ // localStorage.setItem("todo", toDoBtn.checked);
   localStorage.setItem("audio", audio.checked);
-}
+//}
 
-save();
+//save();
 // window.onload = function () {
 //   let checked = JSON.parse(localStorage.getItem("todo"));
 //   toDoBtn.checked = checked;
