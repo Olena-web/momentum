@@ -8,6 +8,9 @@
   margin: 0;
   padding: 0;
 }
+:root {
+  --green-color: aqua;
+}
 
 body {
   min-width: 480px;
@@ -149,6 +152,11 @@ ul {
 }
 .play-list li:hover {
   opacity: 1;
+}
+.playing {
+  font-size: 22px;
+  opacity: 1;
+  color: var(--green-color);
 }
 .weather {
   display: flex;
@@ -337,7 +345,7 @@ option:hover {
 }
 .settings-language:hover,
 .settings-picture:hover {
-  background-color: rgba(0, 227, 89, 1);
+  background-color: var(--green-color);
 }
 .footer {
   display: flex;
