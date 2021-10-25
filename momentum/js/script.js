@@ -3,7 +3,7 @@ const time = document.querySelector(".time");
 const dayOfWeek = document.querySelector(".date");
 let date;
 
-const weatherIcon = document.querySelector(".weather-icon");
+let weatherIcon = document.querySelector(".weather-icon");
 const temperature = document.querySelector(".temperature");
 const wind = document.querySelector(".wind");
 const humidity = document.querySelector(".humidity");
